@@ -1,3 +1,16 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .post-header {
     display: flex;
 }
+
+.post-img {
+    display: flex;
+    flex-direction: row;
+}
+
+
