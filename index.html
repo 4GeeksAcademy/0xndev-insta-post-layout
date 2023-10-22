@@ -4,31 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram Post</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/d795e420ea.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" >
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="post">
-        <div class="post-header">
-            <div><i class="fa-brands fa-html5"></i></div>
-            <div>
-                <p>HTML5</p>
-                <p>Rigoberto</p>
+    <div class="d-flex justify-content-center">
+        <div class="card" style="width: 25rem;">
+            <div class="d-flex">
+                <div class="p-2 logo">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <div class="p-2 flex-grow-1 ">
+                    <span class="name"><strong>HTML5</strong></span>
+                    <br>
+                    <span class="name">Rigoburto</span>
+                </div>                    
+                
+                <div class="p-2 dots">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
             </div>
-            <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
-        </div>
-        <div class="post-img">
-            <img src="https://placedog.net/500" alt="doggo">
-        </div>
-        <div class="post-body">
-            <div class="post-icons">
-                <div><i class="fa-regular fa-heart"></i></div>
-                <div><i class="fa-regular fa-comment"></i></div>
-                <div><i class="fa-regular fa-paper-plane"></i></div>
-                <div><i class="fa-regular fa-bookmark"></i></div>
+            <img src="https://www.travelandleisure.com/thmb/kfcKH88gBt_d1ZJPFg_rUcyMekU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-grand-teton-USMNTNSIPOG0823-2538d183b9094e3fb59dd5e54bbe791c.jpg" class="card-img-top" alt="...">
+          
+          <div class="card-body">
+            <div class="d-flex">
+                <h5 class="card-title">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <i class="fa-solid fa-bookmark"></i>
+                </h5>
             </div>
-            <p>Liked by 4GeeksAcademy, html5, Web and 100,000 others</p>
-            <p>blah blah blah</p>
+            <p class="card-text">Liked by <strong>4GeeksAcademy</strong> and <strong>100,000 others</strong></p>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt id nihil eveniet minima hic quos, quia aperiam temporibus magni architecto sint qui corporis nulla, eius a ex eos repellendus quasi?</p>
+          </div>
         </div>
     </div>
 </body>

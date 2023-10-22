@@ -1,16 +1,31 @@
-.post {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+body {
+    background-color: black;
 }
 
-.post-header {
-    display: flex;
+i.fa-bookmark {
+    margin-left: 10rem;
+    padding-left: 30px;
 }
 
-.post-img {
-    display: flex;
-    flex-direction: row;
+.card-text {
+    font-size: small;
 }
+
+div.logo {
+    font-size: xx-large;
+}
+
+span.name {
+    font-size: small
+}
+
+div.dots {
+    font-size: x-large;
+}
+
+div.card {
+    margin-top: 100px;
+}
+
 
 
